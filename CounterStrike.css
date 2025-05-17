@@ -1,0 +1,182 @@
+/* Загальні стилі для контейнера */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-image: url("fon2.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   backdrop-filter: blur(2px);
+}
+
+header a:hover {
+   color: white;
+   text-decoration: underline solid 2px;
+}
+
+header a {
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.548);
+   margin: 25px;
+   margin-top: 8px;
+   background-color: #1b1e20;
+   border-radius: 4px;
+   height: 20px;
+   padding: 6px;
+   text-shadow: 2px;
+}
+
+header h1 {
+   text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+   color: white;
+   font-size: 50px;
+   font-family: "Share Tech", sans-serif;
+   font-style: normal;
+   letter-spacing: 1px;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%)
+}
+
+header div {
+   background-color: rgb(54, 50, 50);
+   background: linear-gradient(135deg, #080606, #252627);
+   height: 120px;
+   display: flex;
+   position: relative;
+   justify-content: space-between;
+
+
+}
+
+nav li {
+   display: inline;
+   margin-left: 5%;
+}
+
+#navigation {
+   background-color: rgb(54, 54, 54);
+   padding: 8px;
+   height: 50px;
+
+}
+
+nav li a {
+   font-family: "PT Sans", sans-serif;
+   text-decoration: none;
+   border: 2px solid black;
+   border-radius: 5px;
+   padding: 5px;
+   color: black;
+   font-weight: 600;
+   background-color: #747474;
+}
+
+nav li a:hover {
+   color: rgb(161, 161, 161)
+}
+
+.sections {
+   background-color: rgb(160, 160, 160);
+   margin: 20px;
+   padding: 7px;
+   border-radius: 3px
+}
+
+.sections h3 {
+   font-style: italic;
+   color: #181818;
+   font-size: 120%;
+   text-decoration: underline solid 2px;
+text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+.sections p {
+   border: 3px solid black;
+   padding: 5px;
+   border-radius: 7px;
+   padding-top: 15px;
+   padding-bottom: 15px
+}
+
+.sidebar {
+   background-color: #747474;
+   padding: 10px;
+   border-radius: 3px;
+   margin-top: 18px
+}
+
+aside h3 {
+   color: #b40000;
+   text-align: center;
+   font-style: italic
+}
+
+/* Основний контейнер для контенту та aside */
+main.content {
+   display: flex;
+   justify-content: space-between;
+   margin: 20px;
+}
+
+/* Основний контент (секції зліва) */
+.main-content {
+   width: 70%;
+   /* Встановлюємо ширину для основних секцій */
+}
+
+/* Блок aside (справа) */
+aside.sidebar {
+   width: 28%;
+   /* Встановлюємо ширину для aside */
+
+}
+
+.PopularSite a {
+   color: black
+}
+
+.impressions textarea {
+   background-color: rgb(143, 134, 134);
+   margin-left: 245px;
+
+}
+
+.impressions label {
+   position: absolute;
+   top: 30%
+}
+
+section.impressions {
+   position: relative;
+   width: 60%;
+   padding-top: 15px;
+   padding-bottom: 15px
+}
+
+.text-font {
+   font-family: "Roboto Slab", serif;
+   font-size: 109%;
+   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+footer {
+   margin-left: 30%;
+   color: white
+}
+
+footer a {
+   color: white
+}
+button{
+   color:black;
+   background-color: #747474;
+}
+button:hover{
+   color:white;
+}
+.impressions span{
+   margin-top: 15px;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+}
