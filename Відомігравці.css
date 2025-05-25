@@ -1,0 +1,364 @@
+body {
+   margin: 0px;
+   background-image: url("1photo/fonn3.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: repeat;
+}
+
+/*HEADER*/
+header {
+   background-color: rgba(0, 0, 0, 0.7);
+   display: flex;
+   position: relative;
+   width: 100%;
+   height: 130px;
+}
+
+header h1 {
+   color: white;
+   margin-left: 125px;
+   margin-top: 40px;
+   position: absolute;
+   font-size: 330%;
+   font-family: "Exo 2", sans-serif;
+   text-shadow: 0px 0px 6px rgb(168, 199, 255);
+   font-style: italic;
+}
+
+.titleTXT {
+   color: rgb(255, 255, 255, 0.8);
+   margin-left: 60%;
+   font-size: 65%;
+   margin-top: 17px;
+   margin-right: 30px;
+   letter-spacing: 1px;
+   width: 450px;
+   height: 68px;
+   padding: 10px 5px 15px 5px;
+   border-radius: 10px;
+   font-family: "Roboto Condensed", sans-serif;
+}
+
+.specialTitle {
+   color: rgb(173, 216, 230, 0.8)
+}
+
+/*NAV*/
+
+.mainCHoose {
+   color: white;
+   font-family: "Roboto Condensed", sans-serif;
+   margin-left: 44%;
+   display: block;
+   margin-top: 10px;
+}
+
+.strilka {
+   margin-left: 47.7%;
+   color: white
+}
+
+.PlayerIMG img {
+   margin-left: 10px;
+   box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.8);
+}
+
+.fimg:hover {
+   box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.8);
+   ;
+}
+
+.simg:hover {
+   box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.8);
+   ;
+}
+
+.timg:hover {
+   box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.8);
+   ;
+}
+
+.vimg:hover {
+   box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.8);
+   ;
+}
+
+.limg:hover {
+   box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.8);
+   ;
+}
+
+
+
+.ChoosePlayer {
+   color: white;
+   font-family: "Roboto Condensed", sans-serif;
+   background-color: rgb(30, 96, 117, 0.6);
+   padding: 20px;
+   width: 450px;
+   padding: 25px 15px 30px 10px;
+   margin-left: 30.5%;
+   text-align: center;
+   border-radius: 10px;
+   margin-top: 7px
+}
+
+.ChoosePlayer span {
+   font-size: 90%;
+   color: rgb(189, 189, 189);
+   text-shadow: 0px 0px 3px #000000;
+}
+
+.simple {
+   position: absolute;
+   left: 40.7%
+}
+
+.niko {
+   position: absolute;
+   left: 35.8%
+}
+
+.monesy {
+   position: absolute;
+   left: 46.3%
+}
+
+.zywoo {
+   position: absolute;
+   left: 52.5%
+}
+
+.bit {
+   position: absolute;
+   left: 59.2%
+}
+
+.BIGCONTAINER {
+   background: linear-gradient(135deg,
+         rgba(17, 8, 39),
+         rgb(27, 27, 1));
+   margin-right: 70px;
+   margin-left: 70px;
+   border-radius: 20px;
+   padding-bottom: 8px;
+   margin-bottom: 40px;
+}
+
+
+.NikoArt {
+   color: white;
+   margin-left: 70px;
+   margin-right: 70px;
+   margin-top: 400px;
+   display: flex;
+   height: 300px;
+   border-bottom: 3px solid rgb(231, 231, 231);
+   padding-bottom: 25px;
+}
+
+.NikoTXT {
+   width: 650px;
+   margin-left: 40px;
+   margin-top: 90px;
+   letter-spacing: 1px;
+   font-family: "Yanone Kaffeesatz", sans-serif;
+   font-size: 90%;
+   color: #fbffd3;
+   text-shadow: 0px 0px 5px black;
+}
+
+.NikoVideo {
+   margin-top: 20px;
+   margin-left: 20px;
+   box-shadow: 0px 0px 10px black;
+}
+
+.NikoArt h2 {
+   position: absolute;
+   left: 63%;
+   font-family: "Exo 2", sans-serif;
+   color: rgb(255, 252, 98);
+   font-size: 200%;
+   text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.795);
+}
+
+.NikoSpecial {
+   color: rgb(255, 166, 255);
+   font-weight: 450;
+}
+
+.S1Art {
+   display: flex;
+   margin-left: 70px;
+   margin-right: 70px;
+   border-bottom: 3px solid rgb(231, 231, 231);
+   padding-bottom: 25px;
+}
+
+.S1TXT {
+   color: white;
+   width: 650px;
+   letter-spacing: 1px;
+   margin-right: 40px;
+   font-size: 90%;
+   font-family: "Yanone Kaffeesatz", sans-serif;
+   margin-left: 25px;
+   margin-top: 90px;
+   text-shadow: 0px 0px 5px black;
+}
+
+.S1Video {
+   margin-top: 100px;
+   box-shadow: 0px 0px 10px black;
+}
+
+.S1Art h2 {
+   position: absolute;
+   color: white;
+   left: 28%;
+   font-size: 200%;
+   font-family: "Exo 2", sans-serif;
+   color: rgb(127, 252, 235);
+   text-shadow: 0px 0px 5px rgba(168, 238, 255, 0.795);
+
+}
+
+.S1Special {
+   color: rgb(153, 163, 255);
+   font-size: 450;
+}
+
+
+.MonesyArt {
+   margin-left: 70px;
+   margin-right: 70px;
+   margin-top: 25px;
+   display: flex;
+   height: 300px;
+   border-bottom: 3px solid rgb(231, 231, 231);
+   padding-bottom: 25px;
+}
+
+.MonesyArt h2 {
+   position: absolute;
+   left: 60%;
+   font-family: "Exo 2", sans-serif;
+   color: rgb(255, 252, 98);
+   font-size: 200%;
+   text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.795);
+}
+
+.MonesyTXT {
+   width: 650px;
+   margin-left: 40px;
+   margin-top: 90px;
+   letter-spacing: 1px;
+   font-family: "Yanone Kaffeesatz", sans-serif;
+   font-size: 90%;
+   color: #fbffd3;
+   text-shadow: 0px 0px 5px black;
+}
+
+.MonesySpecial {
+   color: rgb(255, 166, 255);
+   font-weight: 450;
+}
+
+.MonesyVideo {
+   box-shadow: 0px 0px 10px black;
+}
+
+
+
+.ZywooArt {
+   display: flex;
+   margin-left: 70px;
+   margin-right: 70px;
+   border-bottom: 3px solid rgb(231, 231, 231);
+   padding-bottom: 25px;
+}
+
+.ZywooTXT {
+   color: white;
+   width: 650px;
+   letter-spacing: 1px;
+   margin-right: 40px;
+   font-size: 90%;
+   font-family: "Yanone Kaffeesatz", sans-serif;
+   margin-left: 25px;
+   margin-top: 90px;
+   text-shadow: 0px 0px 5px black;
+}
+
+.ZywooVideo {
+   margin-top: 40px;
+   box-shadow: 0px 0px 10px black;
+}
+
+.ZywooArt h2 {
+   position: absolute;
+   color: white;
+   left: 30%;
+   font-size: 200%;
+   font-family: "Exo 2", sans-serif;
+   color: rgb(127, 252, 235);
+   text-shadow: 0px 0px 5px rgba(168, 238, 255, 0.795);
+}
+
+.ZywooSPECIAL {
+   color: rgb(153, 163, 255);
+   font-size: 450;
+}
+
+.BitArt {
+   margin-left: 70px;
+   margin-right: 70px;
+   margin-top: 25px;
+   display: flex;
+   height: 300px;
+   padding-bottom: 25px;
+}
+
+.BitTXT {
+   width: 650px;
+   margin-left: 40px;
+   margin-top: 90px;
+   margin-bottom: 10px;
+   letter-spacing: 1px;
+   font-family: "Yanone Kaffeesatz", sans-serif;
+   font-size: 90%;
+   color: #fbffd3;
+   text-shadow: 0px 0px 5px black;
+}
+
+.BitArt h2 {
+   position: absolute;
+   left: 63%;
+   font-family: "Exo 2", sans-serif;
+   color: rgb(255, 252, 98);
+   font-size: 200%;
+   text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.795);
+}
+
+.BitVideo {
+   margin-top: 30px;
+   box-shadow: 0px 0px 10px black;
+}
+
+.BitSpecial {
+   color: rgb(255, 166, 255);
+   font-weight: 450;
+}
+
+footer {
+   color: white;
+   font-family: "Yanone Kaffeesatz", sans-serif;
+   margin-left: 25%;
+}
+
+footer a {
+   color: white;
+   text-decoration: none;
+}
